@@ -42,28 +42,40 @@ const projects = [
     role: "PRODUCT BUILDER",
     title: "KGP Find",
     description:
-      "Built and launched a campus-exclusive lost & found platform for IIT Kharagpur, featuring secure claims, smart matching, and institute-only access.",
-    tags: ["PRODUCT", "AI WORKFLOWS", "REACT", "MONGODB"],
+      "Built a campus-exclusive lost & found platform that replaces scattered WhatsApp posts with a secure, privacy-first system for reconnecting students with their belongings.",
+    tags: ["PRODUCT", "AI WORKFLOWS", "REACT", "POSTGRES SQL"],
+    link: "https://kgpfind.vercel.app/",
+    image: "assets/kgpfind.png",
   },
   {
-    year: "2024",
-    role: "ML ENGINEER",
-    title: "Stock Price Predictor",
+  year: "2026",
+    role: "STRATEGY & INSIGHTS",
+    title: "HUL Case Study",
     description:
-      "Machine learning model using LSTM networks to predict stock price movements with historical data analysis and visualization.",
-    tags: ["PYTHON", "TENSORFLOW", "ML"],
-    link: "#",
-    image: "",
+      "Developed a data-backed growth strategy addressing quick commerce, rural expansion, and sustainability challenges across a large-scale FMCG ecosystem.",
+    tags: ["STRATEGY", "MARKET RESEARCH", "ANALYTICS"],
+    link: "assets/HUL_Analysis.pdf",
+    image: "assets/hul.jpg",
   },
   {
-    year: "2023",
-    role: "EMBEDDED SYSTEMS",
-    title: "Autonomous Drone Control",
+    year: "2025",
+    role: "BUSINESS STRATEGY",
+    title: "Ather Energy Recommendation",
     description:
-      "Designed a PID controller for autonomous drone stabilization and waypoint navigation using embedded C and ROS.",
-    tags: ["C", "EMBEDDED", "ROS"],
-    link: "#",
-    image: "",
+      "Leveraging data, user behavior, and market insights to uncover opportunities for product and business growth.",
+    tags: ["BUSINESS STRATEGY", "BUSINESS ANALYSIS", "DATA ANALYSIS"],
+    link: "assets/Ather_analysis.pdf",
+    image: "assets/ather.jpg",
+  },
+  {
+    year: "2025",
+    role: "PRODUCT MANAGER",
+    title: "ERP Optimisation Framework",
+    description:
+      "Exploring how AI can transform procurement through predictive insights, supplier intelligence, and autonomous workflows.",
+    tags: ["PROCUREMENT", "AUTOMATION", "DECISION INTELLIGENCE"],
+    link: "assets/ERP_optimisation.pdf",
+    image: "assets/erp.jpg",
   },
 ];
 
@@ -74,28 +86,35 @@ const skills = [
   {
     category: "Languages",
     index: "01",
-    items: ["Python", "JavaScript", "C/C++", "Java", "TypeScript", "SQL"],
+    items: ["Python", "Java", "C/C++", "JavaScript", "SQL"],
   },
   {
-    category: "Frameworks",
+    category: "Frameworks & Libraries",
     index: "02",
-    items: ["React", "Node.js", "Express", "Flask", "TensorFlow", "PyTorch"],
+    items: ["React", "Node.js", "FastAPI", "Pandas", "NumPy", "Scikit-learn"],
   },
   {
-    category: "Tooling",
+    category: "Tools & Platforms",
     index: "03",
-    items: ["Git", "Docker", "Linux", "AWS", "MongoDB", "PostgreSQL"],
+    items: [
+      "Git/GitHub",
+      "Power BI",
+      "Google Analytics",
+      "Microsoft Clarity",
+      "Postman",
+      "Figma",
+    ],
   },
   {
-    category: "Concepts",
+    category: "Product & Analytics",
     index: "04",
     items: [
-      "Machine Learning",
-      "Data Structures",
-      "System Design",
-      "REST APIs",
-      "CI/CD",
-      "Agile",
+      "Product Analytics",
+      "KPI Tracking",
+      "Funnel Analysis",
+      "Market Research",
+      "Business Analysis",
+      "Data Visualization",
     ],
   },
 ];
@@ -104,26 +123,26 @@ const skills = [
 // Large, informal text statements about you.
 
 const funFacts = [
-  "I survive on an unhealthy amount of chai and late-night maggi sessions at hall canteens.",
-  "I refuse to use light mode after sunset — dark mode is a lifestyle, not a preference.",
-  "If you find a great hackathon, send me the link. I'll bring the energy.",
+  "Most of my best memories started with an unplanned decision.",
+  "Cinema is my favorite form of storytelling and probably my most time-consuming hobby.",
+  "Still convinced that some of life's best lessons came from a pirate anime."
 ];
 
 // ── Stats (Off the Record) ─────────────────────────────────
 // Big bold numbers with monospace labels underneath.
 
 const stats = [
-  { value: "5+", label: "CHAI / DAY" },
-  { value: "07", label: "SEMESTERS IN" },
-  { value: "20+", label: "PROJECTS BUILT" },
-  { value: "∞", label: "SIDE PROJECTS" },
+  { value: "15+", label: "PROJECTS SHIPPED" },
+  { value: "05", label: "COUNTRIES VISITED" },
+  { value: "04", label: "SEMESTERS IN" },
+  { value: "1000+", label: "HOURS OF ONE PIECE" },
 ];
 
 // ── Currently (Live Status) ────────────────────────────────
 // What you're currently up to — shown in a "live status" bar.
 
 const currently = [
-  { icon: "book", label: "READING", value: "Clean Code — Robert C. Martin" },
+  { icon: "book", label: "READING", value: "Inspired by Marty Cagan" },
   { icon: "music", label: "LISTENING", value: "Lo-fi Beats · Bollywood Classics" },
   { icon: "code", label: "BUILDING", value: "This portfolio" },
   { icon: "brain", label: "LEARNING", value: "System Design Fundamentals" },
