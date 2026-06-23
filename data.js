@@ -77,6 +77,26 @@ const projects = [
     link: "assets/ERP_optimisation.pdf",
     image: "assets/erp.jpg",
   },
+  {
+    year: "2025",
+    role: "PRODUCT MANAGER",
+    title: "Acquisition & Engagement feature for Amazon Music",
+    description:
+      "Formulated a product strategy to elevate Amazon Music from a passive Prime add-on to a primary streaming destination. Conceptualized innovative features to drive standalone user acquisition and boost daily active engagement.",
+    tags: ["USER ACQUISITION", "PRODUCT STRATEGY", "COMPETITIVE ANALYSIS"],
+    link: "assets/amazon_music.pdf",
+    image: "assets/amazon_music.png",
+  },
+  {
+    year: "2025",
+    role: "PRODUCT MANAGER",
+    title: "Increasing Average Number of Tweets per User",
+    description:
+      "Developed a gamification and feature-enhancement strategy to boost Twitter user engagement and content creation. Aimed at increasing average tweet frequency from once a month to once a week by addressing content creation imbalances.",
+    tags: ["GAMIFICATION", "USER ENGAGEMENT", "PRODUCT STRATEGY"],
+    link: "assets/avg_tweet.pdf",
+    image: "assets/X.jpg",
+  }
 ];
 
 // ── Skills ─────────────────────────────────────────────────
